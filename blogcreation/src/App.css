@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  
+}
+
+  body{
+    margin-left: 15%;
+    margin-right:15%;
+    font-family: Cambria;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size:100% 100vh;
+    background-image:url('./component/pic_bck.jpg');
+    
+
+}
+.containerlocal {  
+display: flex;
+align-items: center;
+justify-content: center;
+/* text-align: center; */
+
+}
+
+.imghome {
+max-width: 30%;
+max-height:30%;
+/* padding: 1% */
+
+
+}
+
+.text {
+font-size: 15px;
+
+text-align:center;
+font-family:   cursive ;
+
+
+}
+.htext {
+  font-size: 25px;
+  padding-left: 2%;
+  text-align:center;
+  font-family:   cursive ;
+  
+  
+  }
+  .link
+  {
+    
+    text-decoration: none;
+    display: inline;
+    padding: 1%;
+    
+  cursor: pointer;
+  }
+.header
+{
+  height: 45px;
+  
+}
+.pg1
+{
+  height: 920px;
+ margin: 3px;
+ border-bottom: 2px solid #041466;
+ justify-self: center;
+ 
+}
+
+.home
+{
+  margin: 1px;
+  height: 900px;
+  border-bottom: 2px solid #041466;
+
+}
+.container
+{
+  height: 400px;
+  width: 600px;
+  position: relative;
+  /* position: absolute; */
+  left: 30%;
+  border: 2px solid #041466; 
+
+ 
+}
+
+.center {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  justify-content: center;
+
+}
+.login
+{
+  margin: 1px;
+  height: 900px;
+  border-bottom: 2px solid #041466;
+}
+#payment{
+  
+  justify-content: center;
+background-color: lightpink;
+width: 50%;
+position: relative;
+left: 25%;
+}
