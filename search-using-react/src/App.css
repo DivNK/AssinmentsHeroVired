@@ -1,0 +1,54 @@
+html,body,#root{
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing:border-box;
+}
+table,th
+{
+  border: 1px solid black;
+  text-align: center;
+}
+.td-class{
+  
+    border: 1px solid black;
+    text-align: left;
+    width: 400px;
+    
+  
+}
+td{
+  
+  border: 1px solid black;
+  text-align: center;
+  
+
+}
+.in-search
+{
+  height: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.main-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+button
+{
+  height: 30px;
+  height: 30px;
+  
+  
+}
+.table-class
+{
+  display: flex;
+  justify-content: center;
+}
