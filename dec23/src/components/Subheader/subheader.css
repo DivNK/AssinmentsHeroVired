@@ -1,0 +1,21 @@
+ .subheader{
+    display: flex;
+    align-items: center;
+    height: 6%;
+    width: 100%;
+    background-color: #232f3e   ;
+    color: aliceblue;
+    cursor: pointer;
+}
+.subheader>div{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.hovereffect
+{
+    border: 1px solid white;
+}
+.hovernull
+{
+    border: none;
+} 
