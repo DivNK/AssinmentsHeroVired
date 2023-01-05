@@ -17,7 +17,7 @@ function App() {
  <Lmenu></Lmenu>
  {/* {ctx.clicked==1? <Lmenu></Lmenu>:null} */}
  <Submain></Submain>
- <Main></Main>
+ 
 
  </div></>
   );

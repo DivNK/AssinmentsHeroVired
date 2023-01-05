@@ -120,9 +120,9 @@ export default function Header()
         </div>
         
     </div>  
-    {frmb==1?<p style={{marginLeft:'92%' ,backgroundColor:'grey',borderRadius:'4px',width:'40px'}}>Create</p>:<></>}
+    {frmb==1?<p style={{marginLeft:'86%' ,backgroundColor:'grey',borderRadius:'4px',width:'40px'}}>Create</p>:<></>}
     {mic==1?<p style={{marginLeft:'70%' ,backgroundColor:'grey',borderRadius:'4px',width:'120px'}}>Search with your voice</p>:<></>}
-    {bell==1?<p style={{marginLeft:'93%' ,backgroundColor:'grey',borderRadius:'4px',width:'80px'}}>Notifications</p>:<></>}
+    {bell==1?<p style={{marginLeft:'88%' ,backgroundColor:'grey',borderRadius:'4px',width:'80px'}}>Notifications</p>:<></>}
     {butt==1?<p style={{marginLeft:'66%' ,backgroundColor:'grey',borderRadius:'4px',width:'80px'}}>Search</p>:<></>}
     </div>
     )
