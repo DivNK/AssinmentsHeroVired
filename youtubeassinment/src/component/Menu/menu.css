@@ -1,0 +1,99 @@
+.lmenu{
+    height: 95%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+ 
+    scroll-behavior: smooth;
+    margin-left: 2px;
+    /* scrollbar-track-color: black; */
+    /* scrollbar-color: transparent; */
+
+}
+.lmenu:hover{
+    overflow-y: scroll;
+}
+.secm1
+{
+border-bottom: 1px solid lightgrey;
+}
+.secm2
+{
+border-bottom: 1px solid lightgrey;
+}
+.secm3
+{
+border-bottom: 1px solid lightgrey;
+}
+.secm4
+{
+border-bottom: 1px solid lightgrey;
+}
+.secm5
+{
+border-bottom: 1px solid lightgrey;
+}
+.secm6
+{
+padding-top: 15px;
+}
+.individual
+{
+    height: 45px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10%;
+    /* justify-content: space-between; */
+}
+.individual:hover{
+    background: #0000000f;
+    border-radius: 15%;
+    
+}
+.image
+{
+    padding: 5px;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    /* text-align: center; */
+    justify-content: left;
+    align-items: center;
+}
+.text
+{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    /* text-align: center; */
+    justify-content: left;
+    align-items: center;
+}
+.sem3>p{
+    margin: 0px;
+    padding: 0px;
+}
+.end1>p{
+    font-size: 12px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin: 0px;
+    font-weight: 50px;
+    color: grey;
+    cursor: pointer;
+}
+/* .secm6{
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
+.end1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

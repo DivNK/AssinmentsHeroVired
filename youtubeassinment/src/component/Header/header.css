@@ -1,0 +1,136 @@
+.container_header
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 8%;
+}
+.header>p
+{
+    height: 24px;
+    text-align: center;
+    padding: 5px;
+}
+.sec1{
+    width: 15%;
+    height: 100%;
+    padding: 8px;
+    display: flex;
+
+    
+}
+.around
+{
+    padding: 15px;
+    cursor: pointer;
+}
+.frmsrch>input
+{
+   border: none;
+    outline: none;
+     
+    width: 90%;
+    height: 100%;
+}
+.sec2{
+    width: 55%;
+    height: 100%;
+    padding: 8px;
+    display: flex;
+
+    
+}
+
+.frmsrch
+{
+   
+    border: 1px solid #ccc;
+    background: transparent;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+    width: 85%;
+    height: 95%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cont2
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+
+}
+.frmbutton{
+    
+    width: 8%;
+    height: 40px;
+    border-top-right-radius: 25px; 
+    border-bottom-right-radius: 25px;
+    border: none; 
+    /* margin-left: 450px; */
+    
+
+}
+.sec3{
+    width: 20%;
+    height: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: right;
+
+    
+}
+.ar-mic{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #00000004;
+    border-radius: 50%;
+   
+}
+.around:hover
+{
+    background: #0000000f;
+    border-radius: 50%;
+}
+.ard
+{
+    padding: 15px;
+    cursor: pointer;
+}
+.ardfa
+{
+    padding: 15px;
+    cursor: pointer;
+}
+.ardfa:hover
+{
+    background: #0000000f;
+    border-radius: 50%;
+}
+.ar-mic:hover
+{
+    background: #0000000f;
+    border-radius: 50%;
+}
+.ard-bell
+{
+    padding: 15px;
+    cursor: pointer;
+}
+.ard-bell:hover
+{
+    background: #0000000f;
+    border-radius: 50%;
+}
